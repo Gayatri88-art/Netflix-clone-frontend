@@ -1,0 +1,510 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Poppins,sans-serif;
+ 
+}
+body {
+  background-color: black;
+}
+
+.main {
+  background-image: url(assets/newprofile.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  width: 100%;
+  object-fit:cover;
+  position: relative;
+   background-size: max(160vh,120vw);
+  background-position: center center;
+} 
+.main .box {
+  position: absolute;
+  top:0;
+  height: 100vh;
+  width: 100%;
+  opacity: .77;
+  background-color: black;
+  z-index:1;
+  gap:70px;
+}
+nav {
+  display: flex;
+  align-items: center;
+  max-width:77vw;
+  margin:auto;
+  justify-content: space-between;
+  height:62px;
+  padding:0 10px;
+}
+.netflix{
+  position: relative;
+  width: 150px;
+  z-index: 20;
+  margin-right: 5px;
+}
+nav image {
+  color: rgb(250, 7, 7);
+ mask-position: relative;
+ z-index: 10;
+ 
+}
+
+nav button{
+  position: relative;
+  z-index: 10;
+
+}
+.lang-sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:1px;
+
+}
+
+ 
+.first-child1 {
+  position: relative;
+  background-color: black;
+  color:white;
+  font-weight: bolder;
+  border: 1px solid rgb(82, 82, 82);
+  border-radius: 4px;
+  padding: 3.8px 17px;
+min-height :32px;
+ text-align :left;
+ font-size :16px;
+font-stretch :100%;
+width: 123px;
+font-family: Poppins,sans-serif;
+margin-right: 14px;
+}
+
+.signin{
+  background-color: red;
+  border:none;
+  color:white;
+  padding: 5px 7px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  background-size: auto;
+  cursor :pointer;
+  min-height :32px;
+ padding-bottom :4px;
+ padding-left :16px;
+ padding-right: 16px;
+ padding-top :4px;
+ transition-duration:0.25s;
+ text-decoration-style: solid;
+text-decoration-thickness :auto;
+  
+}
+
+
+nav button {
+  position: relative;
+  z-index: 10;
+
+  
+}
+.hero {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(100%-62);
+  flex-direction: column;
+  color:white;
+  position: relative;
+  z-index:20;
+  text-align: center;
+  gap:23px;
+  padding:0 30px;
+  margin-top: 300px;
+   
+}
+ .first-child {
+  position: relative;
+  z-index: 20;
+  font-weight: 700;
+  font-size: 65px;
+  opacity: 1;
+  font-family: Poppins;
+  text-align: center;
+  margin-bottom: 8px;
+  line-height :50px;
+  margin-block-end: 8px;
+  display: block;
+  width:px;
+  
+  color:white;
+  
+
+ }
+.second-child {
+  font-size: 25px;
+  font-weight: 700;
+  height: 20px;
+  margin-block-end: 24px;
+  text-align: center;
+  font-family: arial;
+ }
+.third-child {
+  font-size: 16px;
+  font-weight: 400;
+  height: 24px;
+  text-align: center;
+  display: block;
+  margin-left :0px;
+  margin-right: 0px;
+  margin-top :0px;
+  text-size-adjust: 100%;
+  
+}
+.emails-button {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  margin-top: 0px;
+  position: relative;
+  font-size:40px;
+  height:60px;
+  font-weight: 100%;
+  z-index:20;
+}
+
+.emails-button :first-child{
+  padding:10px;
+  width: 220px;
+  background-color: rgba(0, 0, 0, 0.237);
+  opacity: 0.5;
+  border: 1px solid rgb(114, 113, 113);
+  color:white;
+  opacity: 1;
+  border-radius: 4px;
+  width: 600px;
+  
+}
+
+::placeholder{
+  color:white;
+  opacity:0.6;
+  font-size:16px;
+  border:2px;
+  border-color: white;
+  
+
+}
+.get-started-button {
+  background-color: red;
+  color:white;
+  margin-left: 5px;
+  border: none;
+  font-size: 24px;
+  padding: 5px 16px;
+  border-radius: 2px;
+  cursor: pointer;
+  object-fit: contain;
+  width: 200px;
+  border-radius: 4px;
+  font-family:  arial;
+  padding: 5px 16px;
+  }
+  .get-started-button:hover{
+    opacity: .9;
+  }
+  
+  .get-started-button:active{
+    opacity: .7;
+  }
+
+  .india, .movies {
+    margin-top:20px;
+    display: inline-block; 
+    background-color: black;
+    color: white; 
+   position: relative; 
+    z-index: 10; 
+    height:38px;
+    font-weight: bolder;
+    border: 1px solid rgb(82, 82, 82);
+   padding: 3.8px 17px;
+   text-align:center;
+   font-size :16px;
+  width: 100px;
+  font-family: Poppins,sans-serif;
+  left:350px;
+ line-height: 24px;
+ border-radius: 4px;
+ gap:4;
+
+}
+.card-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top:35px;
+  margin-right:20px;
+}
+.card{
+  border-radius: 6px;
+  width:325;
+  box-shadow: 0px 2px 4px rgb(0,0,0,0.2);
+  margin:20px;
+  margin-top:0px;
+  display: block;
+  position: relative;
+  height: 255px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  transition: transform 0.3s ease-in-out; 
+}
+.card:hover{
+  transform: scale(1.1);
+
+ 
+}
+.number {
+  
+  line-height: 1;
+    display: inline-block;
+    height: 1em;
+    position: relative;
+    font-size: 7rem;
+    font-weight: 900;
+    color: rgb(0, 0, 0);
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0.8;
+    -webkit-text-stroke: 2px rgb(255, 255, 255);
+    text-shadow: 0 0 1.5rem rgba(0,0,0,0.5);
+   font-family:Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+   position: absolute;
+  margin-top:150px;
+  margin-left:-230px;
+}
+.h2{
+  z-index: index 10px;
+  font-size: 35px;
+  color:white;
+ margin-left:360px;
+font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+font-weight :bold;
+height: 23px;
+margin-top:45px;
+}
+ 
+div.container1{
+display: inline-block;
+display: flex;
+justify-content: center;
+  flex-wrap: wrap;
+  margin-top:35px;
+ margin-right:130px;
+ margin-bottom: 70px;
+  
+}
+
+.box1 img {
+  position: absolute;
+  right: 0px;
+  bottom: -150px;
+}
+.box2 img {
+  position: absolute;
+  right: 0px;
+  bottom: -90px;
+}
+.box3 img {
+  position: absolute;
+  right: 0px;
+  bottom: -160px;
+}
+.box4 img {
+  position: absolute;
+  right: 0px;
+  bottom: -110px;
+}
+  div.box1{
+    width:280px;
+  height:320px;
+  background: linear-gradient( 149deg, #192247 0%, #210e17 99.08% );
+  border-radius:15px;
+  margin-right: 15px;
+  margin-left: 70px;
+  display: block;
+  position:relative;
+  padding-top: 2px;
+
+  }
+  div.box2{
+    width:280px;
+  height:320px;
+  background: linear-gradient( 149deg, #192247 0%, #210e17 99.08% );
+  border-radius:15px;
+  margin-right: 15px;
+  display: block;
+  position:relative;
+
+  }
+  div.box3{
+    width:280px;
+  height:320px;
+  background: linear-gradient( 149deg, #192247 0%, #210e17 99.08% );
+  border-radius:15px;
+  margin-right: 15px;
+  display: block;
+  position:relative;
+
+  }
+  div.box4{
+    width:280px;
+  height:320px;
+  background: linear-gradient( 149deg, #192247 0%, #210e17 99.08% );
+  border-radius:15px;
+  margin-right: 15px;
+  display: block;
+  position:relative;
+
+  }
+  .tv{
+    z-index: 20px;
+    color: white;
+    margin-top: 30px;
+    font-weight: 1px;
+    font-style: sans-serif;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: left;
+  }
+  .tv1{
+    color: rgb(194, 192, 192);
+    margin-top:30px; 
+    font-style: sans-serif;
+    text-align: center;
+    font-weight: 400;
+    font-size :16px;
+    padding-left: 15px;
+    padding-right: 10px;
+    text-align: left;
+    }
+    .logo1{
+      position: relative;
+      right:0px;
+      bottom:0;
+
+      
+    }
+    .h3{
+      z-index: index 10px;
+      font-size: 35px;
+      color:white;
+     margin-left:360px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight :bold;
+    height: 23px;
+    margin-top:45px;
+    margin-bottom: 35px;
+    }
+    .faqbox{
+      display: block;
+      width: 60vw;
+      margin: auto;
+      background-color: rgb(46, 46, 46);
+      height: 10px;
+      font-size: 25px;
+      margin-top: 6px;
+      padding-top: 45px;
+      padding-bottom: 50px;
+      padding-left: 15px;
+      padding-right: 15px;
+      color:white;
+      display: flex;
+      justify-content: space-between;
+      transition: background-color .3s;
+      margin-top: 10px;
+      margin-left: 330px;
+      
+    }
+    
+    .faqbox:hover{
+      background-color: #414140;
+      cursor: pointer;
+    }
+
+    .hero1 {
+      font-family: "Martel Sans", sans-serif;
+      font-weight: 200;
+      font-style: normal;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      color:white;
+      position: relative;
+      z-index:20;
+      text-align: center;
+      gap:23px;
+      padding:0 30px;
+      margin-top: 75px;
+      margin-bottom:20px;
+       
+    }
+
+    footer{
+      max-width: 70vw;
+      margin: auto;
+      color:rgba(255,255,255,0.7);;
+      padding:50px;
+      width: 60vw;
+    }
+    
+    footer .call{
+      padding: 16px 0;
+      font-size: 16px;
+      margin-bottom: 36px;
+    }
+    
+    .footer{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+    
+    @media screen and (max-width:800px) {
+    
+      .bold_text{
+          position: relative;
+          z-index: 15;
+          font-weight: 900;
+          font-size: 35px;
+          opacity: 1;
+          font-family: Poppins;
+      }
+      
+      
+    
+      .footer{
+          display: grid;
+          grid-template-columns: 1fr 1fr ;
+          gap:30px;
+      }
+    
+    }
+    
+    .footer a{
+      color:rgba(255,255,255,0.7);;
+      font-size: 12px;
+    }
+    .footer-elements{
+      display: flex;
+      flex-direction: column;
+      gap:20px;
+    }
+    
